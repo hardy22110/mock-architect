@@ -2,38 +2,29 @@ import express, { Request, Response } from 'express'
 import { Worker } from 'worker_threads'
 import sendMessageToWorker from '../utils/sendMessageToWorker'
 import logger from '../utils/logger'
-import { URL } from 'url'
 import { randomUUID } from 'crypto'
 
 const getRouter = express.Router()
+
 type mockAPIConfig = {
   // 呼叫路徑 (用於找設定值)
   path: string
-  method: 'get' | 'GET'
+  method: 'get' | 'GET' | 'post' | 'POST'
   timeout: number | string
   mockDataURL: string
 }
 
-getRouter.get('/*', async (request: Request, response: Response) => {
+getRouter.post('/*', async (request: Request, response: Response) => {
   const UUID = randomUUID()
-  logger.debug(`[GET] [${UUID}] [GO]`)
+  logger.debug(`[POST] [${UUID}] [GO]`)
   let result: any = null
   let statusCode = 500
   try {
     // Get information
-    const { url, path, method } = request
-    const params: Record<string, string> = {}
-    const parsedUrl = new URL(url, 'http://localhost.com')
-    for (const [key, value] of parsedUrl.searchParams.entries()) {
-      params[key] = value
-    }
+    const { path, method, body } = request
     logger.info(
-      `[GET] [${UUID}] [INFORMATION]`,
-      JSON.stringify({
-        path,
-        method,
-        params,
-      })
+      `[POST] [${UUID}] [INFORMATION]`,
+      `path = ${path}, method = ${method}, body = ${JSON.stringify(body)}`
     )
 
     // Get mock data
@@ -44,15 +35,16 @@ getRouter.get('/*', async (request: Request, response: Response) => {
     if (!result) {
       throw new Error('result not found in sendMessageToWorker')
     }
+
     // Print get mock data result
-    logger.info(`[GET] [${UUID}] [RESULT]`, result)
+    logger.info(`[POST] [${UUID}] [RESULT]`, result)
 
     statusCode = 200
   } catch (error) {
+    logger.error(`[POST] [${UUID}] [CATCH]`, error)
     statusCode = 500
-    logger.error(`[GET] [${UUID}] [CATCH]`, error)
   }
-  logger.debug(`[GET] [${UUID}] [END]`)
+  logger.debug(`[POST] [${UUID}] [END]`)
   // Send response
   response.status(statusCode).send(result)
 })

@@ -1,5 +1,16 @@
 {
   "mockList": [
-
+    {
+      "path": "/test/data",
+      "method": "GET",
+      "timeout": "2000",
+      "mockDataURL": "../testData.json"
+    },
+    {
+      "path": "/commandBoard/queryPage/getFbDetailByID",
+      "method": "POST",
+      "timeout": "1000",
+      "mockDataURL": "../getFbDetailByID.json"
+    }
   ]
 }

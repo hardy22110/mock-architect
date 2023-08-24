@@ -1,4 +1,5 @@
 export default function getURLParams(url: string): Record<string, string> {
+  console.log('getURLParams url', url)
     let parameter: Record<string, string> = {}
     try {
       if (typeof url !== 'string' || url.trim().length === 0) {

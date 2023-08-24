@@ -6,7 +6,7 @@
   "scripts": {
     "build": "npx tsc",
     "start": "node dist/app.js",
-    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q --delay 500ms dist/app.js\"",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q --delay 3000ms dist/app.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:pkg": "pkg ./dist/app.js -c --binary package.json"
   },
@@ -20,7 +20,9 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "ip": "^1.1.5"
+    "ip": "^1.1.5",
+    "winston": "^3.10.0",
+    "winston-daily-rotate-file": "^4.6.1"
   },
   "devDependencies": {
     "@types/cors": "^2.8.13",

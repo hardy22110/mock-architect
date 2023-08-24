@@ -1,0 +1,334 @@
+{
+    "returnCode": "00000",
+    "returnMessage": "Success",
+    "rptCommandBoard": {
+      "createDateTime": "2023-08-21 16:22:33",
+      "expiryDateTime": "2023-08-22 16:22:33",
+      "tenantID": 3,
+      "beforeServiceID": 10904,
+      "serviceEntryID": null,
+      "sourceEntityTypeID": 5,
+      "sourceSiteID": 1207,
+      "sourcePilotID": 3682,
+      "typeID": 61,
+      "contactID": "5b0a6970-7e1f-4641-961a-ce117fb8affa",
+      "processingStatus": "New",
+      "userName": "ShawnChen",
+      "lastModifyAgentID": null,
+      "lastModifyDate": null,
+      "lastModifyAgentName": null,
+      "sourcePilotName": "FB-測試Other",
+      "sourceSiteName": "FB-測試Other欄位",
+      "DBID": 198
+    },
+    "rptCommandBoardDetailList": [
+      {
+        "rptCommandBoardID": 198,
+        "commBoardTitleName": "FB留言",
+        "sort": 1,
+        "answerText": "留言後台1",
+        "answerValue": "留言後台1",
+        "DBID": 152,
+        "messageType": "text"
+      },
+      {
+        "rptCommandBoardID": 198,
+        "commBoardTitleName": "測試留言1",
+        "sort": 2,
+        "answerText": "https://picsum.photos/2000/1000",
+        "answerValue": "https://picsum.photos/2000/1000",
+        "DBID": 153,
+        "messageType": "img"
+      },
+      {
+        "rptCommandBoardID": 198,
+        "commBoardTitleName": "測試留言2",
+        "sort": 3,
+        "answerText": "https://info360.crm.com.tw:36003/FileResource/image?uniqueID=7f93acfc-9790-474d-97e7-b6ede5fc9cfe&fileName=106205424_953855975076760_3532600172352260479_n.png",
+        "answerValue": "https://info360.crm.com.tw:36003/FileResource/image?uniqueID=7f93acfc-9790-474d-97e7-b6ede5fc9cfe&fileName=106205424_953855975076760_3532600172352260479_n.png",
+        "DBID": 154,
+        "messageType": "img"
+      },
+      {
+        "rptCommandBoardID": 198,
+        "commBoardTitleName": "測試留言3",
+        "sort": 4,
+        "answerText": "https://info360.crm.com.tw:36003/FileResource/file?uniqueID=3994df65-4a90-4f40-9aa3-752ac2895941&fileName=Genesys-Server%E5%95%9F%E5%8B%95.docx",
+        "answerValue": "https://info360.crm.com.tw:36003/FileResource/file?uniqueID=3994df65-4a90-4f40-9aa3-752ac2895941&fileName=Genesys-Server%E5%95%9F%E5%8B%95.docx",
+        "DBID": 155,
+        "messageType": "file"
+      },
+      {
+        "rptCommandBoardID": 198,
+        "commBoardTitleName": "測試留言4",
+        "sort": 5,
+        "answerText": "https://video.xx.fbcdn.net/v/t42.3356-2/367978134_6812853198832309_5168292763600917260_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=060d78&_nc_ohc=LthvFI3qLTkAX8zlhFZ&_nc_oc=AQmhIr-1v7a6TOgoxNXmVFjDLpsyTHObrQgtlRfkaKm4UTQ9BdgJwYwW9ST2XJMRKvzqLs-Do5uPlPMuOK2SIieE&_nc_ht=video.xx&oh=03_AdS339fO8qc1LTz76__pnBiHCfZtfEn5DqPu9-VFIhAdEQ&oe=64E33EBF",
+        "answerValue": "https://video.xx.fbcdn.net/v/t42.3356-2/367978134_6812853198832309_5168292763600917260_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=060d78&_nc_ohc=LthvFI3qLTkAX8zlhFZ&_nc_oc=AQmhIr-1v7a6TOgoxNXmVFjDLpsyTHObrQgtlRfkaKm4UTQ9BdgJwYwW9ST2XJMRKvzqLs-Do5uPlPMuOK2SIieE&_nc_ht=video.xx&oh=03_AdS339fO8qc1LTz76__pnBiHCfZtfEn5DqPu9-VFIhAdEQ&oe=64E33EBF",
+        "DBID": 156,
+        "messageType": "video"
+      },
+      {
+        "rptCommandBoardID": 198,
+        "commBoardTitleName": "測試留言5",
+        "sort": 6,
+        "answerText": "https://info360.crm.com.tw:36003/FileResource/file?uniqueID=9160882f-9744-4ee2-a003-171cae9e7cbc&fileName=20221104102418.wav",
+        "answerValue": "https://info360.crm.com.tw:36003/FileResource/file?uniqueID=9160882f-9744-4ee2-a003-171cae9e7cbc&fileName=20221104102418.wav",
+        "DBID": 157,
+        "messageType": "audio"
+      },
+      {
+        "rptCommandBoardID": 198,
+        "commBoardTitleName": "補充留言",
+        "sort": 7,
+        "answerText": "123",
+        "answerValue": "123",
+        "DBID": 158,
+        "messageType": "text"
+      }
+    ],
+    "interaction": {
+      "ixnID": "e546a8b4-55fd-4f1b-8ea2-571e470c452a",
+      "callID": "fb-e3ddb2f9-6378-48d8-a8dc-b24e99e782d2",
+      "subject": "ShawnChen 留言",
+      "DBID": 1019954
+    },
+    "caseCommentList": [
+      {
+        "comment": "{pilot}：{changedTo}FB-測試Other",
+        "dateTime": "2023-08-21 16:22:33",
+        "caseCommentAgentID": 32639,
+        "caseCommentAgentName": "-(ooxx)",
+        "type": "history"
+      }
+    ],
+    "fbBeforeServiceMessage": [
+      {
+        "createTime": "2023-08-21 16:19:23",
+        "userType": "client",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "TEST",
+        "messageType": "text"
+      },
+      {
+        "createTime": "2023-08-21 16:19:25",
+        "userType": "system",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "歡迎 歡迎 歡迎 歡迎  歡迎  歡迎  歡迎  歡迎  歡迎  歡迎  歡迎  歡迎  歡迎  歡迎  歡迎  歡迎  歡迎  歡迎  歡迎  歡迎",
+        "messageType": "text"
+      },
+      {
+        "createTime": "2023-08-21 16:19:28",
+        "userType": "client",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "緊急",
+        "messageType": "text"
+      },
+      {
+        "createTime": "2023-08-21 16:19:30",
+        "userType": "system",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "系統訊息 : 您已有留言，補充留言/再次進線？",
+        "messageType": "text"
+      },
+      {
+        "createTime": "2023-08-21 16:19:32",
+        "userType": "client",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "再次進線",
+        "messageType": "text"
+      },
+      {
+        "createTime": "2023-08-21 16:19:34",
+        "userType": "system",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "系統訊息 : 請協助填寫登入表單",
+        "messageType": "text"
+      },
+      {
+        "createTime": "2023-08-21 16:19:34",
+        "userType": "system",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "Ext02",
+        "messageType": "text"
+      },
+      {
+        "createTime": "2023-08-21 16:19:36",
+        "userType": "client",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "選項1",
+        "messageType": "text"
+      },
+      {
+        "createTime": "2023-08-21 16:19:38",
+        "userType": "system",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "Ext01",
+        "messageType": "text"
+      },
+      {
+        "createTime": "2023-08-21 16:19:40",
+        "userType": "client",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "741",
+        "messageType": "text"
+      },
+      {
+        "createTime": "2023-08-21 16:19:42",
+        "userType": "system",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "Ext10",
+        "messageType": "text"
+      },
+      {
+        "createTime": "2023-08-21 16:19:43",
+        "userType": "client",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "963",
+        "messageType": "text"
+      },
+      {
+        "createTime": "2023-08-21 16:19:45",
+        "userType": "system",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "系統訊息 : 尋找客服人員中 請稍後",
+        "messageType": "text"
+      },
+      {
+        "createTime": "2023-08-21 16:20:45",
+        "userType": "system",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "系統訊息 : 專員忙線中，是否要留言？",
+        "messageType": "text"
+      },
+      {
+        "createTime": "2023-08-21 16:20:47",
+        "userType": "client",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "是",
+        "messageType": "text"
+      },
+      {
+        "createTime": "2023-08-21 16:20:49",
+        "userType": "system",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "系統訊息 : 請填寫留言表單",
+        "messageType": "text"
+      },
+      {
+        "createTime": "2023-08-21 16:20:50",
+        "userType": "system",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "FB留言",
+        "messageType": "text"
+      },
+      {
+        "createTime": "2023-08-21 16:20:51",
+        "userType": "client",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "留言選項1",
+        "messageType": "text"
+      },
+      {
+        "createTime": "2023-08-21 16:20:53",
+        "userType": "system",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "測試留言1",
+        "messageType": "text"
+      },
+      {
+        "createTime": "2023-08-21 16:21:09",
+        "userType": "client",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "https://info360.crm.com.tw:36003/FileResource/file?uniqueID=e0e7ff62-191b-4c6c-8615-64ed5ea122a4&fileName=audio_clip.wav",
+        "messageType": "audio"
+      },
+      {
+        "createTime": "2023-08-21 16:21:13",
+        "userType": "system",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "測試留言2",
+        "messageType": "text"
+      },
+      {
+        "createTime": "2023-08-21 16:21:18",
+        "userType": "client",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "https://info360.crm.com.tw:36003/FileResource/image?uniqueID=7f93acfc-9790-474d-97e7-b6ede5fc9cfe&fileName=106205424_953855975076760_3532600172352260479_n.png",
+        "messageType": "img"
+      },
+      {
+        "createTime": "2023-08-21 16:21:21",
+        "userType": "system",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "測試留言3",
+        "messageType": "text"
+      },
+      {
+        "createTime": "2023-08-21 16:21:30",
+        "userType": "client",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "https://info360.crm.com.tw:36003/FileResource/file?uniqueID=3994df65-4a90-4f40-9aa3-752ac2895941&fileName=Genesys-Server%E5%95%9F%E5%8B%95.docx",
+        "messageType": "file"
+      },
+      {
+        "createTime": "2023-08-21 16:21:33",
+        "userType": "system",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "測試留言4",
+        "messageType": "text"
+      },
+      {
+        "createTime": "2023-08-21 16:22:21",
+        "userType": "client",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "https://video.xx.fbcdn.net/v/t42.3356-2/367978134_6812853198832309_5168292763600917260_n.mp4?_nc_cat=104&ccb=1-7&_nc_sid=060d78&_nc_ohc=LthvFI3qLTkAX8zlhFZ&_nc_oc=AQmhIr-1v7a6TOgoxNXmVFjDLpsyTHObrQgtlRfkaKm4UTQ9BdgJwYwW9ST2XJMRKvzqLs-Do5uPlPMuOK2SIieE&_nc_ht=video.xx&oh=03_AdS339fO8qc1LTz76__pnBiHCfZtfEn5DqPu9-VFIhAdEQ&oe=64E33EBF",
+        "messageType": "video"
+      },
+      {
+        "createTime": "2023-08-21 16:22:23",
+        "userType": "system",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "測試留言5",
+        "messageType": "text"
+      },
+      {
+        "createTime": "2023-08-21 16:22:29",
+        "userType": "client",
+        "agentID": null,
+        "agentName": null,
+        "messageText": "https://info360.crm.com.tw:36003/FileResource/file?uniqueID=9160882f-9744-4ee2-a003-171cae9e7cbc&fileName=20221104102418.wav",
+        "messageType": "audio"
+      }
+    ],
+    "linkHdList": [],
+    "serviceEntry": null,
+    "visiterData": []
+  }
+  

@@ -2,4 +2,4 @@ import dotenv from 'dotenv'
 
 dotenv.config()
 
-export const PORT = Number(process.env.PORT) || 8877
+export const PORT = Number(process.env.PORT) || 7788
